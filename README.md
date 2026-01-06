@@ -1,30 +1,48 @@
-Tic Tac Toe Game
+# Tic Tac Toe Game
 
-Engineered a Java-based Tic Tac Toe application designed to demonstrate fundamental programming concepts, including game logic, state management, and structured code organization. The application provides a stable two-player experience with clear gameplay flow.
+Engineered a Java-based Tic Tac Toe application designed to demonstrate fundamental programming concepts such as game logic, state management, and clean object-oriented structure.
 
-Core Contributions
-Game Logic Implementation
+---
 
-Developed the complete rule set for the game, including turn management, move validation, win condition evaluation, and draw detection.
+## Project Overview
 
-Application Structure
+This project represents a classic two-player Tic Tac Toe game implemented in Java. The application manages turn-based gameplay, validates player moves, updates the game board, and determines win or draw conditions.
 
-Structured the project using object-oriented principles to ensure separation of concerns and maintainable, readable code.
+---
 
-State Management
+## Core Contributions
 
-Implemented consistent board state tracking to accurately reflect player actions throughout the game lifecycle.
+### Game Logic Implementation
 
-User Interaction
+Implemented the complete rule system, including turn switching, input validation, win condition checks, and draw detection.
 
-Designed a simple and intuitive interaction flow for two players, ensuring smooth turn transitions and clear game feedback.
+### Application Structure
 
-Tech Stack
-Layer	Technology
-Language	Java
-Paradigm	Object-Oriented Programming
-Runtime	JVM
-Tools	Git, VS Code
-How It Works
+Designed the project using object-oriented principles, separating responsibilities across multiple classes to improve maintainability and readability.
 
-The application runs locally and initiates a two-player Tic Tac Toe session. Players alternate turns by making valid moves, while the system continuously updates the game state and evaluates winning or draw conditions. Once an end condition is reached, the final result is displayed and the session terminates.
+### State Management
+
+Maintained consistent tracking of the game board state to ensure accurate gameplay after each player action.
+
+### User Interaction
+
+Implemented a clear and intuitive interaction flow for two players, ensuring smooth transitions between turns and clear end-game feedback.
+
+---
+
+## Tech Stack
+
+| Layer     | Technology |
+|-----------|------------|
+| Language  | Java       |
+| Paradigm | Object-Oriented Programming |
+| Runtime  | JVM        |
+| Tools    | Git, VS Code |
+
+---
+
+## How It Works
+
+The application runs locally and starts a new Tic Tac Toe session upon execution. Players alternate turns by making valid moves. After each move, the system updates the board state and evaluates whether a win or draw condition has been met. Once the game ends, the final result is displayed and the application terminates.
+
+---
